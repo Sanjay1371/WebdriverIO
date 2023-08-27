@@ -10,7 +10,7 @@ class RecordQAPage {
     await browser.$("#password").click();
     await browser.$("#password").setValue("Abcdef@@12345");
     await browser.$('.ant-btn-primary').click();
-    await browser.pause(15000);
+    await browser.pause(14000);
     await expect(browser).toHaveUrl('https://qa.optx.com/floor-view/floor-monitor');
   }
 }
