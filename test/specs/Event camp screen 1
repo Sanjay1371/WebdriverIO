@@ -1,0 +1,41 @@
+const RecordQAPage = require("../specs/Record QA");
+
+
+
+describe("Event", () => {
+  it("tests Event", async () => {
+
+    await RecordQAPage.testRecordQA();
+
+    await browser.setWindowSize(1504, 916)
+
+
+    await browser.url("https://qa.optx.com/pd-portal/campaigns/new/event/0/0")
+    await expect(browser).toHaveUrl("https://qa.optx.com/pd-portal/campaigns/new/event/0/0")
+    await browser.$("aria/Campaign Name").click()
+    await browser.$("aria/Campaign Name").setValue("Auto test")
+
+    await browser.$("//*[@id=\"typeList\"]/div/div/div[1]/div/div/div/div").click()
+    await browser.$("aria/Free Slot Play").click()
+    await browser.$("aria/Enter Capacity").click()
+    await browser.$("aria/Enter Capacity").setValue("1")
+    await browser.$("//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[1]/div/div/div/span/span[2]/span/input[1]").click()
+    await browser.$("/html/body/div[4]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div").click()
+    await browser.$("/html/body/div[4]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[2]/td[5]/div").click()
+    await browser.$("//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[3]/div/div[2]/div/span/span/span/input[1]").click()
+    await browser.$("/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div").click()
+    await browser.$("/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[2]/td[5]/div").click()
+    await browser.$("//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/div/div").click()
+    await browser.$("aria/Slot Tournament").click()
+    await browser.$("aria/Description[role=\"textbox\"]").click()
+    await browser.$("aria/Description[role=\"textbox\"]").setValue("T")
+    await browser.$("aria/Description[role=\"textbox\"]").setValue("Test")
+    await browser.$("aria/Number").click()
+    await browser.$("aria/Number").setValue("1")
+    await browser.$("aria/~ icon: calendar").click()
+    await browser.$("/html/body/div[7]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div").click()
+    await browser.$("/html/body/div[7]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[2]/td[5]/div").click()
+    await browser.$("aria/Next").click()
+    await browser.$("aria/Ok").click()
+  });
+});

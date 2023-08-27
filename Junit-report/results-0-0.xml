@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CampV2" timestamp="2023-08-27T12:12:47" time="44.295" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="CampV2"/>
+      <property name="capabilities" value="chrome.116_0_5845_111.windows"/>
+      <property name="file" value="file:///C:/Webdriver_IO/Webdriver_IO/test/specs/CampV2.js"/>
+    </properties>
+    <testcase classname="chrome.116_0_5845_111.windows.CampV2" name="tests CampV2" time="44.292">
+      <failure/>
+      <error message="Can't call click on element with selector &quot;//*[@id=&quot;root&quot;]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/window/rect - {"x":null,"y":null,"width":1438,"height":916}
+RESULT: {"x":null,"y":null,"width":1438,"height":916}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/url - {"url":"https://qa.optx.com/user/login"}
+RESULT: {"url":"https://qa.optx.com/user/login"}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/url - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"css selector","value":"#userName"}
+RESULT: {"using":"css selector","value":"#userName"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/374D2B6A7A7CF1238658ABD157E12138_element_15/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"css selector","value":"#userName"}
+RESULT: {"using":"css selector","value":"#userName"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/374D2B6A7A7CF1238658ABD157E12138_element_15/clear - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/374D2B6A7A7CF1238658ABD157E12138_element_15/value - {"text":"admin"}
+RESULT: {"text":"admin"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/374D2B6A7A7CF1238658ABD157E12138_element_17/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/374D2B6A7A7CF1238658ABD157E12138_element_17/clear - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/374D2B6A7A7CF1238658ABD157E12138_element_17/value - {"text":"Abcdef@@12345"}
+RESULT: {"text":"Abcdef@@12345"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"css selector","value":".ant-btn-primary"}
+RESULT: {"using":"css selector","value":".ant-btn-primary"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/374D2B6A7A7CF1238658ABD157E12138_element_19/click - {}
+RESULT: {}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/url - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/window/rect - {"x":null,"y":null,"width":1369,"height":916}
+RESULT: {"x":null,"y":null,"width":1369,"height":916}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/url - {"url":"https://qa.optx.com/pd-portal/campaigns"}
+RESULT: {"url":"https://qa.optx.com/pd-portal/campaigns"}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/url - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"css selector","value":"button[type='button']"}
+RESULT: {"using":"css selector","value":"button[type='button']"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/1AACBE62902FC730A9E757F451A7C625_element_101/click - {}
+RESULT: {}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/execute/sync - {"script":"return (function newWindow(url, windowName, windowFeatures) {\n    window.open(url, windowName || '', windowFeatures || '');\n}).apply(null, arguments)","args":["https://qa.optx.com/pd-portal/campaigns/new/event/0/0","",""]}
+RESULT: {"script":"return (function newWindow(url, windowName, windowFeatures) {\n    window.open(url, windowName || '', windowFeatures || '');\n}).apply(null, arguments)","args":["https://qa.optx.com/pd-portal/campaigns/new/event/0/0","",""]}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/window/handles - {}
+RESULT: {}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/window - {"handle":"47FD2368AEA23A39B0490ED59FBF651A"}
+RESULT: {"handle":"47FD2368AEA23A39B0490ED59FBF651A"}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/url - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_146/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":".//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":".//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_146/clear - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_146/value - {"text":"A"}
+RESULT: {"text":"A"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":".//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+RESULT: {"using":"xpath","value":".//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[1]/div[2]/div[2]/div/span/input"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_146/clear - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_146/value - {"text":"Auto Test 1"}
+RESULT: {"text":"Auto Test 1"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"//*[@id=\"typeList\"]/div/div/div[1]/div/div/div/div"}
+RESULT: {"using":"xpath","value":"//*[@id=\"typeList\"]/div/div/div[1]/div/div/div/div"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_166/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Free Slot Play\"]/@id)] | .//*[@aria-label = \"Free Slot Play\"] | .//input[@id = (//label[normalize-space() = \"Free Slot Play\"]/@for)] | .//input[@placeholder=\"Free Slot Play\"] | .//textarea[@placeholder=\"Free Slot Play\"] | .//input[@aria-placeholder=\"Free Slot Play\"] | .//textarea[@aria-placeholder=\"Free Slot Play\"] | .//*[@title=\"Free Slot Play\"] | .//img[@alt=\"Free Slot Play\"] | .//*[normalize-space(text()) = \"Free Slot Play\"]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_168/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-label = \"Enter Capacity\"] | .//input[@id = (//label[normalize-space() = \"Enter Capacity\"]/@for)] | .//input[@placeholder=\"Enter Capacity\"] | .//textarea[@placeholder=\"Enter Capacity\"] | .//input[@aria-placeholder=\"Enter Capacity\"] | .//textarea[@aria-placeholder=\"Enter Capacity\"] | .//*[@title=\"Enter Capacity\"] | .//img[@alt=\"Enter Capacity\"] | .//*[normalize-space(text()) = \"Enter Capacity\"]"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-label = \"Enter Capacity\"] | .//input[@id = (//label[normalize-space() = \"Enter Capacity\"]/@for)] | .//input[@placeholder=\"Enter Capacity\"] | .//textarea[@placeholder=\"Enter Capacity\"] | .//input[@aria-placeholder=\"Enter Capacity\"] | .//textarea[@aria-placeholder=\"Enter Capacity\"] | .//*[@title=\"Enter Capacity\"] | .//img[@alt=\"Enter Capacity\"] | .//*[normalize-space(text()) = \"Enter Capacity\"]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_152/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-label = \"Enter Capacity\"] | .//input[@id = (//label[normalize-space() = \"Enter Capacity\"]/@for)] | .//input[@placeholder=\"Enter Capacity\"] | .//textarea[@placeholder=\"Enter Capacity\"] | .//input[@aria-placeholder=\"Enter Capacity\"] | .//textarea[@aria-placeholder=\"Enter Capacity\"] | .//*[@title=\"Enter Capacity\"] | .//img[@alt=\"Enter Capacity\"] | .//*[normalize-space(text()) = \"Enter Capacity\"]"}
+RESULT: {"using":"xpath","value":".//*[@aria-labelledby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"Enter Capacity\"]/@id)] | .//*[@aria-label = \"Enter Capacity\"] | .//input[@id = (//label[normalize-space() = \"Enter Capacity\"]/@for)] | .//input[@placeholder=\"Enter Capacity\"] | .//textarea[@placeholder=\"Enter Capacity\"] | .//input[@aria-placeholder=\"Enter Capacity\"] | .//textarea[@aria-placeholder=\"Enter Capacity\"] | .//*[@title=\"Enter Capacity\"] | .//img[@alt=\"Enter Capacity\"] | .//*[normalize-space(text()) = \"Enter Capacity\"]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_152/clear - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_152/value - {"text":"1"}
+RESULT: {"text":"1"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[1]/div/div/div/span/span[2]/span/input[1]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[1]/div/div/div/span/span[2]/span/input[1]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_155/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"/html/body/div[3]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_171/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"/html/body/div[3]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[5]/td[5]/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[3]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[5]/td[5]/div"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_174/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[3]/div/div[2]/div/span/span/span/input[1]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[3]/div/div[2]/div/span/span/span/input[1]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_159/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"/html/body/div[4]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[4]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_176/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"/html/body/div[4]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[5]/td[5]/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[4]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[5]/td[5]/div"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_179/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[2]/div/div/div/span/span[2]/span/input[1]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[3]/div[2]/div/div/div/span/span[2]/span/input[1]"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_157/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[3]/div"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_181/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[5]/td[5]/div"}
+RESULT: {"using":"xpath","value":"/html/body/div[5]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[5]/td[5]/div"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element/E6C746604C8CB6E85BD24DC4DE5C1A5F_element_182/click - {}
+RESULT: {}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: POST /session/2669eb6ed098f9b10d8c6b6cd1d04c28/elements - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg"}
+COMMAND: GET /session/2669eb6ed098f9b10d8c6b6cd1d04c28/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/2669eb6ed098f9b10d8c6b6cd1d04c28 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call click on element with selector "//*[@id="root"]/div/div/div/section/section/main/div[2]/div/div/div[3]/form/div[1]/div[2]/div[1]/div[2]/div/span/div/div/span/i/svg" because element wasn't found
+    at async Context.<anonymous> (C:\Webdriver_IO\Webdriver_IO\test\specs\CampV2.js:43:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
